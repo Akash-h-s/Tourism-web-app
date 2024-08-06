@@ -5,7 +5,7 @@ let inco=document.querySelector(".inco");
 
 btn.addEventListener("click",function(){
     if(pass.value===repass.value){
-        url='tourism.htm';
+        url='index.html';
         window.location.href=url;
         console.log(pass.value);
         

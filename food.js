@@ -3,7 +3,7 @@ document.querySelectorAll(".s1").forEach(star => {
         star.classList.toggle("orange");
     });
 });
-let but=document.querySelector(".button11");
+let but=document.querySelector(".logout");
         let body=document.querySelector("#bd");
         but.addEventListener("click",()=>{
             bd.innerText="";
@@ -12,4 +12,6 @@ let but=document.querySelector(".button11");
             bd.style.textAlign="center";
             bd.style.marginTop="20%";
             
-        })
+        });
+let about=document.querySelector(".about");
+about.addEventListener("click",()=>{window.location.href="about.html"});

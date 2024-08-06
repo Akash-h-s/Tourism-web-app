@@ -3,9 +3,10 @@ document.querySelectorAll(".s1").forEach(star => {
         star.classList.toggle("orange");
     });
 });
-let book=document.querySelector(".book1");
-book.addEventListener("click",()=>{window.location.href="book.htm"});
-let but=document.querySelector(".button11");
+let book=document.querySelectorAll(".book1");
+for(bk of book){
+bk.addEventListener("click",()=>{window.location.href="book.html"});}
+let but=document.querySelector(".logout");
         let body=document.querySelector("#bd");
         but.addEventListener("click",()=>{
             bd.innerText="";
@@ -14,4 +15,6 @@ let but=document.querySelector(".button11");
             bd.style.textAlign="center";
             bd.style.marginTop="20%";
             
-        })
+        });
+        let about=document.querySelector(".about");
+about.addEventListener("click",()=>{window.location.href="about.html"});
