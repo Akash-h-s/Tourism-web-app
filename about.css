@@ -28,3 +28,9 @@ body{
     border: .25px solid black;
    
 }
+
+.ab1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
