@@ -13,3 +13,5 @@ but.addEventListener("click",()=>{
  bd.style.textAlign="center";
 bd.style.marginTop="20%";
 });
+let con=document.querySelector(".contact");
+con.addEventListener("click",()=>{window.location.href="about.html"});

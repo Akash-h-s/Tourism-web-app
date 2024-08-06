@@ -18,3 +18,5 @@ let but=document.querySelector(".logout");
 bk.addEventListener("click",()=>{window.location.href="book.html"});}
 let about=document.querySelector(".about");
 about.addEventListener("click",()=>{window.location.href="about.html"});
+let con=document.querySelector(".contact");
+con.addEventListener("click",()=>{window.location.href="about.html"});

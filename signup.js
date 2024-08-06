@@ -5,7 +5,7 @@ let inco=document.querySelector(".inco");
 
 btn.addEventListener("click",function(){
     if(pass.value===repass.value){
-        url='index.html';
+        url='login.html';
         window.location.href=url;
         console.log(pass.value);
         

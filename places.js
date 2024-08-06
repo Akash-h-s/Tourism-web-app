@@ -24,5 +24,7 @@
         for(f of fo){
         f.addEventListener("click",()=>{window.location.href="food.html"});}
         let me=document.querySelector(".me");
-        me.addEventListener("click",()=>{window.location.href="about.html"});      
+        me.addEventListener("click",()=>{window.location.href="about.html"}); 
+        let con=document.querySelector(".contact");
+con.addEventListener("click",()=>{window.location.href="about.html"});     
         
